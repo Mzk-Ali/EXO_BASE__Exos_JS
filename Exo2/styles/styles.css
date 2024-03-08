@@ -1,0 +1,25 @@
+.carre{
+    background : rgb(178,255,102);
+    color : black;
+    text-align : center;
+    transition: 1s;
+
+}
+
+.carre-rouge{
+    background-color : red;
+    transition: 1s;
+    transform : rotate(360deg);
+    height : 90%;
+    width : 90%;
+    
+}
+
+.container_carre{
+    display : grid;
+    gap:10px;
+    grid-template-columns:200px 200px;
+    grid-template-rows:200px 200px;
+    justify-content : center;
+    margin : 300px;
+}
